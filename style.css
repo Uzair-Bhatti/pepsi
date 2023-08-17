@@ -1,0 +1,336 @@
+body {
+    margin: 0;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    height: 1000vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    text-transform: uppercase;
+    background-color: #0065c3;
+    padding: 10px;
+    color: #ffff;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.navbar-item {
+    margin-left: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+
+
+.navbar-right .navbar-item {
+    border-radius: 30px;
+    border: 2px solid white;
+    padding: 5px 25px;
+}
+
+.product4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 187vh;
+    top: -3822px;
+    width: 1495px;
+    margin: 0;
+}
+
+.product-items4 img {
+    width: 70vw;
+    position: relative;
+    left: -65px;
+    top: 20px;
+    margin: -10px;
+    padding: 20px;
+}
+
+.product-item4 {
+    height: 500px;
+    width: 800px;
+    max-height: 282px;
+    max-width: 422px;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    bottom: 190px;
+    left: 850px;
+    /* top: 100px; */
+    background: url(https://www.pepsi.com/en-us/uploads/images/apple-music/apple-music-lockup-small-mobile.svg) center center no-repeat;
+    background-size: auto 100%;
+}
+
+.product-button2 {
+    color: white;
+    position: relative;
+    margin: 50% 0 5%;
+    border: 4px solid white;
+    border-radius: 30px;
+    padding: 10px 40px;
+    bottom: -150px;
+    left: 150px;
+    cursor: pointer;
+}
+
+.product-text1 {
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: .7rem;
+    width: 60vw;
+    max-width: 422px;
+    font-weight: 100;
+    top: 450px;
+    right: -10px;
+    text-align: center;
+}
+
+p {
+    font-weight: 300;
+}
+
+
+
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1500px;
+    margin: -10px;
+    margin-top: 0px;
+}
+
+
+.product-items img {
+    width: 60%;
+    height: 60%;
+    padding: 50px;
+
+}
+
+.product-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.product-items-column {
+    flex-direction: column;
+
+}
+
+.product-text {
+    color: #ffff;
+    font-size: 2.0rem;
+    text-align: center;
+}
+
+.product-button {
+    color: white;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 5px 35px;
+    cursor: pointer;
+
+}
+
+.product2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin: -16px;
+    margin-top: 1130px;
+    background-color: black;
+    width: 1500px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-items2 {
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/pzs-new-taste/pzs-can-nobug-tablet@2x.png);
+    background-size: auto 544px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 467.2px;
+    width: 100px;
+    padding-left: 200px;
+}
+
+.product-items3 img {
+    display: flex;
+    width: 412.5px;
+    /* height: 200px; */
+    padding-left: 150px;
+    margin: left 30px;
+    padding-bottom: -5px;
+    margin-bottom: 10px;
+}
+
+
+.product3 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 2320px;
+    background-color: rgba(53, 106, 252, 0.993);
+    width: 1500px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-left1 {
+    display: grid;
+    padding: right 500px;
+    ;
+    row-gap: 20px;
+    width: 450px;
+    margin-right: 63%;
+    margin-top: 5%;
+
+}
+
+.caption {
+    background-color: blue;
+    display: grid;
+    text-align: center;
+    width: 430px;
+    color: antiquewhite
+}
+
+.product-left2 {
+    width: 450px;
+    margin-right: 63%;
+    margin-bottom: 5%;
+}
+
+.caption2 {
+    background-color: blue;
+    display: grid;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.product-item-column {
+    position: absolute;
+    flex-direction: row;
+    width: 700px;
+    height: 500px;
+}
+
+
+.fit {
+    position: absolute;
+    top: 2px;
+    width: 1000px;
+    height: 690.75px;
+    right: -50px;
+    padding-right: 50px;
+    padding-bottom: 500px;
+    background-size: cover;
+}
+
+.fit2 {
+    position: absolute;
+    width: 400px;
+    height: 130px;
+    margin-left: 360.75px;
+    bottom: 30px;
+}
+
+.fit2 {
+    background-image: none;
+}
+
+
+.product5 {
+    display: flex;
+    background-color: #0065c3;
+    flex-direction: row;
+    position: absolute;
+    margin: -10px;
+    margin-top: 3600px;
+    width: 1529px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    /* padding-left: 40px; */
+}
+
+.product5 img {
+    width: 500px;
+    height: 300px;
+    padding-left: 400px;
+    align-items: flex-end;
+}
+
+.product-itemsA {
+    /* display: flex; */
+    position: absolute;
+    color: aliceblue;
+    font-size: 2.0rem;
+    line-height: 1.7em;
+    text-align: left;
+    padding-right: 70px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+
+p {
+    line-height: 1.2em;
+}
+
+.product-text1 {
+    position: absolute;
+    color: aliceblue;
+    line-height: 1em;
+    margin: 1em 0;
+    font-size: .7rem;
+}
+
+
+.product-button3 {
+    text-align: left;
+    color: white;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 5px 35px;
+    cursor: pointer;
+    margin-top: 380px;
+}
+
+
+
+.product6 {
+    display: flex;
+    position: absolute;
+    width: 1500px;
+    height: 863px;
+    margin-top: 5000px;
+}
+
+.product-item6 img {
+    padding-top: 70px;
+    width: 800px;
+    height: 790px;
+}
+
+.product-item7 img {
+    width: 500px;
+    height: 300px;
+    padding-top: 200px;
+}
